@@ -1,8 +1,12 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
 .card{
     margin: auto;
-    margin-top: 5%;
+    margin-top: 2%;
     padding: 1rem;
-    background-color: rgb(247, 247, 247);
+    background-color: rgb(231, 231, 231);
     border: none;
     border-radius: 1rem;
 }
@@ -15,10 +19,14 @@
     padding: 1rem;
 }
 
+.card .search button{
+    border: none;
+    background-color: rgb(231, 231, 231);
+}
+
 .not-fnd{
     display: none;
     margin-top: 10%;
-    /* background-color: rgb(125, 132, 138); */
     text-align: center;
     align-items: center;
     font-size: 2rem;
@@ -26,8 +34,56 @@
 
 .weather-box{
     display: none;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.weather-box .temp{
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+
+.weather-box .desc{
+    font-size: 1.5rem;
+}
+
+.weather-box img{
+    width: 200px;
+}
+
+i{
+    font-size: 1.2rem;
+    margin-top: .4rem;
+}
+
+.name{
+    font-size: 1.5rem;
+    margin: auto;
 }
 
 .weather-det{
     display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.weather-det i{
+    margin: 0 .6rem;
+    /* background-color: blue; */
+}
+
+.weather-det .card{
+    background-color: white;
+    font-size: 1.1rem;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    height: 3.6rem;
+    margin-top: 3%;
+}
+
+.weather-det .card span{
+    margin-left: auto;
 }
