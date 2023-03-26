@@ -1,0 +1,33 @@
+.card{
+    margin: auto;
+    margin-top: 5%;
+    padding: 1rem;
+    background-color: rgb(247, 247, 247);
+    border: none;
+    border-radius: 1rem;
+}
+
+.card .search input{
+    width: 80%;
+    height: 2.5rem;
+    border-radius: 1rem;
+    border: none;
+    padding: 1rem;
+}
+
+.not-fnd{
+    display: none;
+    margin-top: 10%;
+    /* background-color: rgb(125, 132, 138); */
+    text-align: center;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.weather-box{
+    display: none;
+}
+
+.weather-det{
+    display: none;
+}
